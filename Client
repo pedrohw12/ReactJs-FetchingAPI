@@ -16,9 +16,10 @@ class App extends React.Component {
   return (
     <div className="App">
       <h1>Users</h1>
-      {this.state.users.map(user=> <li key={user.id}>
-            {user.username}
-          </li>)}
+      {this.state.users.map(user=> 
+        <li key={user.id}>
+          {user.username}
+        </li>)}
     </div>
   );
 }
