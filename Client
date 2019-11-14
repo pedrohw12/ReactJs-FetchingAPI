@@ -19,8 +19,8 @@ class App extends React.Component {
       {this.state.users.map(user=> 
         <li key={user.id}>
           {user.username}
-        </li>)
-      }
+        </li>
+        )}
     </div>
   );
 }
